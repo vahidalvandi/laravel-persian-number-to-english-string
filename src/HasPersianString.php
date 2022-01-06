@@ -10,6 +10,11 @@ trait HasPersianString
 
         static::saving(function ($model) use ($ps) {
             foreach ($model->getPersianStrings() as $persianString) {
+                
+                if ($persianString == 'amount' and is_string($model->{$persianString})) {
+                    $model->{$persianString} =  str_replace(',', '', $model->{$persianString}) ;
+                }
+
                 if (is_string($model->{$persianString})) {
                     $model->{$persianString} = $ps->convert($model->{$persianString});
                 }
