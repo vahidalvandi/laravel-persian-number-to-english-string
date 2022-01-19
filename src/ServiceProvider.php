@@ -1,6 +1,6 @@
 <?php
 
-namespace vahidalvandi\LaravelPersianString;
+namespace Pishran\LaravelPersianString;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use vahidalvandi\PersianString\PersianString;
