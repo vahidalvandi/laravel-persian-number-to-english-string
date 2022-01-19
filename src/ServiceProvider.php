@@ -3,7 +3,7 @@
 namespace Pishran\LaravelPersianString;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use vahidalvandi\PersianString\PersianString;
+use Pishran\PersianString\PersianString;
 
 class ServiceProvider extends BaseServiceProvider
 {
