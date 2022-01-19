@@ -1,6 +1,6 @@
 <?php
 
-namespace vahidalvandi\LaravelPersianString;
+namespace Pishran\LaravelPersianString;
 
 trait HasPersianString
 {
