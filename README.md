@@ -5,7 +5,7 @@
 
 ```php
 use Illuminate\Database\Eloquent\Model;
-use Pishran\LaravelPersianString\HasPersianString;
+use vahidalvandi\LaravelPersianString\HasPersianString;
 
 class Post extends Model
 {
