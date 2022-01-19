@@ -23,7 +23,7 @@ class Post extends Model
 
 برای نصب و استفاده از این پکیج می توانید از کمپوسر استفاده کنید:
 
-`composer require vahidalvandi/laravel-persian-string`
+`composer require vahidalvandi/laravel-persian-number-to-english-string`
 
 ## پیکربندی
 
