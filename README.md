@@ -23,13 +23,13 @@ class Post extends Model
 
 برای نصب و استفاده از این پکیج می توانید از کمپوسر استفاده کنید:
 
-`composer require pishran/laravel-persian-string`
+`composer require vahidalvandi/laravel-persian-string`
 
 ## پیکربندی
 
 انتشار فایل پیکربندی:
 
-`php artisan vendor:publish --provider="Pishran\LaravelPersianString\ServiceProvider"`
+`php artisan vendor:publish --provider="vahidalvandi\LaravelPersianString\ServiceProvider"`
 
 جهت شخصی سازی قوانین تبدیل، فایل پیکربندی را ویرایش کنید:
 
